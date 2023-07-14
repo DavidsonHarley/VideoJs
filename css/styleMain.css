@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body{
+    background: linear-gradient(90deg,
+    rgba(2,0,36,1) 0%,
+    rgba(235,235,241,1) 0%, 
+    rgba(205,230,235,1) 100%);
+    font-family: 'VT323', monospace;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 60px;
+}
+
+.containerVideo{
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+    max-height: 600px;
+}
